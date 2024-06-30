@@ -1,0 +1,33 @@
+# Ignore .NET build directories
+**/bin
+**/obj
+
+# Ignore user-specific files
+*.user
+*.csproj.user
+*.suo
+
+# Ignore local configuration files
+*.vscode
+*.local.settings.json
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore build output
+.publish/
+*.publish/
+
+# Ignore Dockerfiles and related files
+Dockerfile*
+.dockerignore
+
+# Ignore package management files
+*.nupkg
+*.snupkg
+.nuget/
+
+# Ignore other IDE files
+*.sln.ide
