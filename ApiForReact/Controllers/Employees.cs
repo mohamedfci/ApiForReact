@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 [Route("api/[controller]")]
 [ApiController]
-//[Authorize(Roles = "Emp")]
+[Authorize(Roles = "Emp")]
 public class EmployeesController : ControllerBase
 {
  
