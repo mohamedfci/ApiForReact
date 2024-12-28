@@ -15,6 +15,7 @@ public class EmployeesController : ControllerBase
        
         _configuration = configuration;
     }
+    //test 24/12/2024
     [HttpGet]
     public IActionResult Get()
     {
